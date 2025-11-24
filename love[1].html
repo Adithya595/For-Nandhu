@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Love Letter - Nandhuuuu</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>For Nandhuuuu 💌</h1>
+    <p class="letter">
+      My dearest Nandhuuuu,
+      <br/><br/>
+      I wanted to make this little corner of the web just for you — a warm hug you can open whenever you need.
+      I see your strength, your softness, and every tiny thing that makes you, you. On days when you don't feel like
+      smiling, remember I'm here to share the load. I'll bring the blanket, the chocolate, and all the patience.
+      Take your time, rest, and let me take care of the rest. I love you more than words on a screen.
+    </p>
+
+    <div class="buttons">
+      <a class="btn" href="index.html">Back</a>
+      <button class="btn outline" id="surpriseBtn">Tap for a surprise ✨</button>
+    </div>
+
+    <div id="surprise" class="surprise hidden">
+      <p>💕 Surprise: you get a free massage, a bowl of warm soup, and one movie night — redeem anytime.</p>
+    </div>
+  </main>
+
+  <script>
+    document.getElementById('surpriseBtn').addEventListener('click', function() {{
+      document.getElementById('surprise').classList.toggle('hidden');
+    }});
+  </script>
+</body>
+</html>
